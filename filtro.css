@@ -1,0 +1,40 @@
+.Filter__Container {
+  position: relative;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.Filter__Title {
+  margin: 0;
+}
+
+.Filter__Options {
+  position: absolute;
+  display: none;
+  top: 45px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.Filter__Container:hover > .Filter__Options {
+  display: block;
+}
+
+.Filter__Option-link {
+  display: block;
+  margin: 5px 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  transition: background-color 0.2s;
+}
+
+.Filter__Option-link:hover {
+  background-color: #d3d3d3;
+}
